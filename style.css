@@ -1,0 +1,10 @@
+.divstyle {
+  height: 100px;
+  width: 400px;
+  border: solid black 1px;
+  justify-content: center;
+  outline-style: solid;
+  text-align: center;
+  padding:8px;
+  margin-bottom:20px;
+}
