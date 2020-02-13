@@ -18,7 +18,12 @@ racer.prototype.changediv = function(){
   }else{
   this.speed = this.speed+5;
   this.handling = this.handling-2;
-  this.element.innerHTML = "Name: "+this.name+"<br/>"+ "Speed: "+this.speed+"<br/>"+ "Handling: "+this.handling;}
+  this.element.innerHTML = "Name: "+this.name+"<br/>"+ "Speed: "+this.speed+"<br/>"+ "Handling: "+this.handling;
+  if (this.handling==1)
+  {
+    this.element.style.outlineColor= "#FF0000";
+  }
+  }
  }
 var racer1 = new racer("Alex", 60, 11);
 var racer2 = new racer("John", 40, 19);
